@@ -44,4 +44,12 @@ Default code:
       },
     });
 
+## 3. Copy reusable Component
+
+* Button
+* Card
+* CardSection
+* Header
+
+
 
