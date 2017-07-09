@@ -1,4 +1,4 @@
-# RN Auth App with Expo
+# React Native Create Auth App with Expo
 
 Open Expo Desktop
 
@@ -15,3 +15,8 @@ Work with git (Install Git)
 Create repository
 
 Push to repository
+
+## 1. App Introduction
+
+## 2. 
+
