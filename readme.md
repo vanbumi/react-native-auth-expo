@@ -10,7 +10,7 @@ Open file project with editor
 
 Create readme file
 
-Work with git
+Work with git (Install Git)
 
 Create repository
 
