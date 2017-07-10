@@ -77,6 +77,6 @@ Default code:
 
 ## 15. Login User
 
-## 16. 
+## 16. Error handling
 
   
