@@ -53,5 +53,7 @@ Default code:
 
 ## 4. What is Firebase?
 
+## 5. Setup Firebase 
 
+  npm install --save firebase
 
