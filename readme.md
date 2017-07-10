@@ -65,3 +65,5 @@ Default code:
 
 ## 9. Making text input 
 
+## 10. Create text input from scratch
+
