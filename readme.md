@@ -67,3 +67,12 @@ Default code:
 
 ## 10. Create text input from scratch
 
+## 11. Passing props
+
+## 12. Input style
+
+## 13. Wrap up Input
+
+## 14. Password Input
+
+  
