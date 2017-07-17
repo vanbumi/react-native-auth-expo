@@ -1,6 +1,6 @@
 # React Native Create Auth App with Expo
 
-![](http://res.cloudinary.com/medioxtra/image/upload/c_scale,h_500,w_300/v1500284453/auth-expo/login-form.jpg)
+![](http://res.cloudinary.com/medioxtra/image/upload/c_scale,h_400,w_300/v1500284453/auth-expo/login-form.jpg)
 
 Open Expo Desktop
 
@@ -92,3 +92,12 @@ Import spinner "ActivityIndicator" from react-native;
 ## 20. Menambahkan Logic untuk Spinner.
 
 Membuat helper methode untuk mengatur login success
+
+## 21. Handle Authentication Event
+
+Tambahkan pada root file --> App.js
+
+  firebase.auth().onAuthStateChanged(() => {
+
+  });
+
