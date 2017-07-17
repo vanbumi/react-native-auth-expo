@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 import firebase from 'firebase';
+//import * as firebase from 'firebase';
 import { Button, Card, CardSection, Input } from './common';
 
 
