@@ -1,6 +1,14 @@
 # React Native Create Auth App with Expo
 
-![](http://res.cloudinary.com/medioxtra/image/upload/c_scale,h_400,w_300/v1500284453/auth-expo/login-form.jpg)
+User Login & Logout with Firebase Authentication 
+
+## User Login!
+
+![login-form](http://res.cloudinary.com/medioxtra/image/upload/c_scale,h_400,w_300/v1500284453/auth-expo/login-form.jpg)
+
+## User Logout!
+
+![logout](http://res.cloudinary.com/medioxtra/image/upload/c_scale,h_400,w_300/v1500302449/auth-expo/logout.jpg)
 
 Open Expo Desktop
 
@@ -101,6 +109,6 @@ Tambahkan pada root file --> App.js
 
   });
 
-## 22. Conditional rendering
+## 22. Conditional rendering 
 
 
