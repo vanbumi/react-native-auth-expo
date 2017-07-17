@@ -101,3 +101,6 @@ Tambahkan pada root file --> App.js
 
   });
 
+## 22. Conditional rendering
+
+
