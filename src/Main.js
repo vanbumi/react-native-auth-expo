@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
 import firebase from 'firebase';
 import { Header, Button, Spinner } from './components/common';
 import LoginForm from './components/LoginForm'; 
@@ -25,12 +25,19 @@ export default class Main extends React.Component {
       }
     });
   }
-
-  renderContent() {
+ 
+  renderContent() { 
 
     switch(this.state.loggedIn) {
       case true:
-        return <Button>Log Out</Button>
+        return (
+          <View style={{ marginTop: 20 }}>
+            <Text style={{ alignSelf: 'center', marginBottom: 20, color: 'green' }}>Anda berhasil login! Yay!!</Text>
+            <Button onPress={() => firebase.auth().signOut()}>
+              Log Out
+            </Button>
+          </View>
+        )
       case false:
         return <LoginForm />;
       default:
