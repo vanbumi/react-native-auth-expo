@@ -79,4 +79,9 @@ Default code:
 
 ## 16. Error handling
 
-## 17. Auth Flow   
+## 17. Auth Flow
+
+## 18. Menambahkan Spinner.
+
+Import spinner "ActivityIndicator" from react-native;
+
