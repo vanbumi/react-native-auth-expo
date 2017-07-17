@@ -87,4 +87,6 @@ Import spinner "ActivityIndicator" from react-native;
 
 ## 19. Membuat kondisi Spinner & Button.
 
- 
+## 20. Menambahkan Logic untuk Spinner.
+
+Membuat helper methode untuk mengatur login success
