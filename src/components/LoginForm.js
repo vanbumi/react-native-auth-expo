@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 import firebase from 'firebase';
-//import * as firebase from 'firebase';
-import { Button, Card, CardSection, Input } from './common';
-
+import { Button, Card, CardSection, Input, Spinner } from './common';
 
 class LoginForm extends Component {
-  state = { email: '', password: '', error: '' };
+  state = { email: '', password: '', error: '', loading: false };
 
   onButtonPress() {
     const { email, password } = this.state;
 
-    this.setState({ error: '' });
+    this.setState({ error: '', loading: true });
 
     firebase.auth().signInWithEmailAndPassword(email, password)
       .catch(() => {
@@ -21,6 +19,17 @@ class LoginForm extends Component {
           });
       });
   };
+
+  renderButton() {
+    if (this.state.loading) {
+      return <Spinner size="small" />
+    }
+      return (
+        <Button onPress={this.onButtonPress.bind(this)}>
+          Login
+        </Button>    
+      );
+  }
 
   render() {
     return (
@@ -50,9 +59,7 @@ class LoginForm extends Component {
         </Text>
 
         <CardSection>
-          <Button onPress={this.onButtonPress.bind(this)}>
-            Login
-          </Button>
+          {this.renderButton()}
         </CardSection>
       </Card>
     );

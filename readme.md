@@ -85,3 +85,6 @@ Default code:
 
 Import spinner "ActivityIndicator" from react-native;
 
+## 19. Membuat kondisi Spinner & Button.
+
+ 
