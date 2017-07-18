@@ -14,23 +14,35 @@ Open Expo Desktop
 
 Create new project
 
-Share the view with android or ios
+    beri nama: auth-expo-almaksum atau authExpoAlmaksum
+
+atau dari Terminal (CLI) exp init authExpoAlmaksum
+
+Share view dengan Android atau iOS
 
 Open file project with editor
 
-Create readme file
+Create readme file --> readme.md
 
-Work with git (Install Git)
+Work with GIT, [Install Git di Windows](https://git-for-windows.github.io/), [my GIT notes](https://github.com/vanbumi/CodeJournal/tree/master/GIT)
 
-Create repository
+Create repository [Github](https://github.com/)
 
-Push to repository
+Push file ke repository
 
 ## 1. App Introduction
 
+![3-diagram-app](http://res.cloudinary.com/medioxtra/image/upload/c_scale,h_351,w_300/v1500363795/auth-expo/3-diagram-app.jpg)
+
 ## 2. Root Component
 
-Default code:
+Buka expo dan buka folder project 
+
+Share pada device anda.
+
+Buka folder dengan Visual Code Studio anda.
+
+App.js --> default code:
 
     import React from 'react';
     import { StyleSheet, Text, View } from 'react-native';
@@ -54,12 +66,27 @@ Default code:
       },
     });
 
-## 3. Copy reusable Component
+Ganti dengan **Hello, world!**    
+
+## 3. Copy reusable Component dan tempatkan di folder common:
 
 * Button
 * Card
 * CardSection
 * Header
+
+Membuat file baru common/index.js :
+
+    export * from './Button';
+    export * from './Card';
+    export * from './CardSection';
+    export * from './Header';
+    export * from './Input';
+    export * from './Spinner';
+
+Fungsi dari file index ini adalah untuk menghilangkan repetisi import saat menggungunakn component. Jadi import hanya ditulis 1 baris saja:
+
+    import { Header, Button dll } from './components/common';
 
 ## 4. What is Firebase?
 
@@ -109,6 +136,12 @@ Tambahkan pada root file --> App.js
 
   });
 
-## 22. Conditional rendering 
+## 22. Conditional rendering and finish.
 
+## Howe Work
 
+1. Clone dari repo saya.
+2. Tempatkan di folder kerja anda.
+3. Jalankan dengan Expo.
+4. Apa yang terjadi?
+5.  
