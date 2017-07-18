@@ -26,6 +26,8 @@ Create readme file --> readme.md
 
 Work with GIT, [Install Git di Windows](https://git-for-windows.github.io/), [my GIT notes](https://github.com/vanbumi/CodeJournal/tree/master/GIT)
 
+Follow my Git! :)
+
 Create repository [Github](https://github.com/)
 
 Push file ke repository
@@ -142,6 +144,7 @@ Tambahkan pada root file --> App.js
 
 1. Clone dari repo saya.
 2. Tempatkan di folder kerja anda.
+3. Run 'npm install'.
 3. Jalankan dengan Expo.
 4. Apa yang terjadi?
 5.  
